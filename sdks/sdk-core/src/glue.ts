@@ -1,0 +1,29 @@
+export enum GlueStagingAddresses {
+  wethAddress = '0x84C72f31Bc694b80D0dEe02DD07aB6db4b635C7A',
+  v3CoreFactoryAddress = '0x6997F4B80FE8dCC746Ef99afdA56A5beecA400D2',
+  multicallAddress = '0xBB48E2d33A397094DE6587D649A251FBBB6658dA',
+  quoterAddress = '0x0c04E3BBA193fd26E80f8FF1699E05d097a1d693',
+  v3MigratorAddress = '0xF211C1E35800d510Ad929AbB8543d128fEB286Bb',
+  nonfungiblePositionManagerAddress = '0x57bC040779b11aB68d4896CA95f83d5A9f01455b',
+  tickLensAddress = '0x500B9c99be2c7F631a5b523a603c8820482b82b8',
+  swapRouter02Address = '0x7BD3EBB9F035faa33C508e687f14D8235A2FF1BA',
+  permit2Address = '0x03E6d5AeD7Bc22AF6DF3b17f5083877c014520C4',
+  usdcGlueAddress = '0x0000000000000000000000000000000000000000',
+  usdtGlueAddress = '0x672A0ED3A71d855fee251B6Acb69ED3D3ea9cFBB',
+  usdgAddress = '0x0000000000000000000000000000000000000000',
+}
+
+export enum GlueMainnetAddresses {
+  wethAddress = '0x9a1691D500C54e1d79df2347D170987aa3E527aC',
+  v3CoreFactoryAddress = '0x6D709dA17b57d608bD13fd6607690cE78745BF47',
+  multicallAddress = '0x253024e164a590c8145806c0Eaa6f26F994A9582',
+  quoterAddress = '0xbc31abF21573194DB8e763bC718FFaC3c91808bF',
+  v3MigratorAddress = '0x5dD5FB58c0f81D97dCdd55093eCE85Bb51179C96',
+  nonfungiblePositionManagerAddress = '0x4ec75aF7ed940DA3D20cDD89b5545A0D5a868517',
+  tickLensAddress = '0xa361C5D34c3be7EecEDB43eBA9525149d9d549bd',
+  swapRouter02Address = '0x59016EA9325B6bf6229CfeB7FB990e4f968173cD',
+  permit2Address = '0xb615b6dcE9d01C7C512234387Cbb2249B07C193b',
+  usdcGlueAddress = '0xEe45ed3f6c675F319BB9de62991C1E78B484e0B8',
+  // usdtGlueAddress = 'Not known',
+  usdgAddress = '0xbe0bee9EcbcddfFCE0Bfe301D60814F97Ec18C8e',
+}
